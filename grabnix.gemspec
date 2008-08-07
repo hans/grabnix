@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 	s.platform			= Gem::Platform::RUBY
 	s.name					= 'grabnix'
-	s.version				= '0.1'
+	s.version				= '1.0'
 	s.date					= '2008-08-03'
 	s.author				= 'Hans Engel'
 	s.email					= 'spam.me@engel.uk.to'
