@@ -41,6 +41,7 @@ class GrabNix
 		req = `curl -si -F userfile=@#{img} -F app_upload=Upload http://www.grabup.com/app_upload.php`
 		File.delete(img)
 		url = /Location: (.+)/.match(req)
+		url << '?direct' # direct image URL
 		set_clipboard url[1]
 	end
 	
